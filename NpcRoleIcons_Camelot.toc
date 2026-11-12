@@ -5,7 +5,7 @@
 ## Version: 0.1.0
 ## DefaultState: enabled
 ## OptionalDeps: Platynator
-## IconTexture: Interface\AddOns\NpcRoleIcons\Icons\FantasyBrownMetal\vendor
+## IconTexture: Interface\AddOns\NpcRoleIcons\Icons\logo
 
 ## SavedVariables: NpcRoleIconsDB
 
