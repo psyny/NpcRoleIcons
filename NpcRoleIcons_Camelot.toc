@@ -1,0 +1,37 @@
+## Interface: 16000, 16001
+## Title: NpcRoleIcons
+## Notes: Adds role icons (vendor, trainer, innkeeper, quest objective...) to NPC nameplates.
+## Author: Psyny
+## Version: 0.1.0
+## DefaultState: enabled
+## OptionalDeps: Platynator
+## IconTexture: Interface\AddOns\NpcRoleIcons\Icons\FantasyBrownMetal\vendor
+
+## SavedVariables: NpcRoleIconsDB
+
+# Library files
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+#@end-no-lib-strip@
+
+# Locale files
+Locales\Locale-enUS.lua
+
+# Main Files
+NRI_Utils.lua
+NRI_Roles.lua
+NRI_IconSets.lua
+NRI_Conditions.lua
+NRI_Detect.lua
+NRI_Display.lua
+NRI_Options.lua
+NpcRoleIcons.lua
